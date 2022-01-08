@@ -1,0 +1,101 @@
+/* leads gorilla home page css starts here */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --color-main: #fbc600;
+}
+
+
+/* main page padding given here */
+
+.first-to-third {
+    padding: 2% 9%;
+}
+
+
+/* header nav section starts here  */
+
+a {
+    cursor: pointer;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-menu-list {
+    display: flex;
+}
+
+.header-menu-list>li {
+    font-size: 16px;
+    color: #0a0a0a;
+    padding: 0 20px;
+}
+
+.header-menu>img {
+    width: 20%;
+}
+
+
+/* first page of the home page starts here  */
+
+.first-page {
+    padding: 2% 0;
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    grid-gap: 2%;
+}
+
+.first-page-left>p:nth-child(1) {
+    font-size: 46px;
+    color: #0b002b;
+}
+
+.first-page-left>p:nth-child(2) {
+    font-size: 17px;
+    font-weight: 500;
+    color: #0b002b;
+    line-height: 30px;
+    padding: 2% 0;
+}
+
+.first-page-left>p:nth-child(4) {
+    color: rgb(56, 56, 228);
+    font-weight: 500;
+}
+
+.first-page-left>button {
+    margin: 3% 0;
+    background-color: var(--color-main);
+    color: #ffffff;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 2.8% 6%;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.first-page-right {
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-page-right>img:first-child {
+    width: 90%;
+}
