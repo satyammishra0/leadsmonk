@@ -1,0 +1,51 @@
+/* bonus section starts here */
+
+.bonus-right-section {
+    padding: 0 10%;
+}
+
+.bonus-right-section>p {
+    color: #434343;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    font-weight: 700;
+}
+
+.bonus-right-section-top-tag {
+    text-align: center;
+    font-size: 30px !important;
+    color: rgb(53, 53, 53) !important;
+    margin: 0% 0 10% 0;
+}
+
+.bonus-right-section>img {
+    margin: 7% 0;
+}
+
+.bonus-right-section>button {
+    padding: 2%;
+    background-color: var(--bg-main);
+    margin-top: 3%;
+    margin-left: 25%;
+    font-size: 27px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.bonus-right-section>button:hover {
+    background-color: orangered;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.purple-button {
+    padding: 4% 1%;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #6f69ff;
+}

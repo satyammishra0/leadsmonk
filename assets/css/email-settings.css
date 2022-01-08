@@ -1,0 +1,119 @@
+/* email settings page strat here */
+
+
+/* Gmail DEfault settings sections */
+
+.email-settings-section {
+    padding: 0.6%;
+}
+
+.email-settings-main {
+    background-color: #fff;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+/* main section settings */
+
+.email-settings-main-header {
+    padding: 1.4% 2.5%;
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.email-settings-main-header>p {
+    font-size: 20px;
+    color: #434343;
+    font-weight: 600;
+}
+
+.email-settings-main-content {
+    padding: 1% 4%;
+}
+
+.email-settings-main-content-header>button {
+    padding: 1.7%;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.email-settings-main-content-header>button>i {
+    font-size: 14px;
+    color: var(--bg-main);
+    margin-right: 5px;
+}
+
+.email-settings-main-content-header>button:nth-child(1) {
+    border-bottom: 1px solid rgb(236, 236, 236);
+    border-right: 1px solid rgb(236, 236, 236);
+    color: #563d7c;
+}
+
+.email-settings-main-content-header>button:nth-child(2) {
+    border-top: 1px solid rgb(236, 236, 236);
+    border-right: 1px solid rgb(236, 236, 236);
+}
+
+.email-settings-main-content-header>button:nth-child(3) {
+    border-bottom: 1px solid rgb(236, 236, 236);
+    color: #563d7c;
+}
+
+.email-settings-main-content-body {
+    padding: 5% 4%;
+    text-align: center;
+}
+
+.email-settings-main-content-body>p {
+    font-size: 15px;
+    color: #434343;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.email-settings-main-content-body>button {
+    padding: 1.2% 5%;
+    margin-top: 4%;
+    border: 1px solid rgb(66, 66, 66);
+}
+
+.email-settings-main-content-body-images {
+    padding: 2% 25%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.email-settings-main-content-body-images>button {
+    padding: 1% 15%;
+    border: 1px solid rgb(66, 66, 66);
+    background-color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.email-settings-main-content-body-images>button:nth-child(2) {
+    background-color: #007bff;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.email-settings-main-content-body-images>button:nth-child(2)>i {
+    margin-right: 5px;
+}
+
+.email-settings-main-content-body-images>button:nth-child(3) {
+    color: #563d7c;
+}
+
+@media only screen and (max-width: 1024px) {
+    .email-settings-main-content-body-images>button {
+        padding: 1% 11%;
+    }
+    .email-settings-main-content-body-images {
+        padding: 1% 15%;
+    }
+}

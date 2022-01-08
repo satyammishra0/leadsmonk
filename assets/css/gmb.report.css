@@ -1,0 +1,16 @@
+@import url(global.css);
+.select-campaign {
+    padding: 2%;
+    background-color: rgb(248, 247, 247);
+    margin-top: 2%;
+}
+
+.select-campaign-1 {
+    padding: 1% 2%;
+    font-size: 15px;
+    color: #444444;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
